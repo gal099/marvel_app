@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from '../../data/marvel/characters.json';
+import Data from '../../../data/marvel/characters.json';
 
 export default function HeroList() {
   return (

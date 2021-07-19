@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from '../../pages/Home';
-import HeroList from '../../pages/HeroList';
-import HeroDetails from '../../pages/HeroDetails';
+import Home from '../pages/Home';
+import HeroList from '../pages/HeroList';
+import HeroDetails from '../pages/HeroDetails';
 
 export default function Routes() {
   return (
