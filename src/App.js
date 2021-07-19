@@ -1,3 +1,5 @@
-import Routes from './application/Routes'
+import Routes from './application/Routes';
 
-export default () => <Routes />;
+export default function App() {
+  return <Routes />;
+}
