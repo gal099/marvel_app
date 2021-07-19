@@ -3,18 +3,26 @@ import { Link } from 'react-router-dom';
 
 export default function Menu() {
   return (
-    <ul>
-      <li>
-        <Link to="/">Inicio</Link>
+    <ul className="nav justify-content-end">
+      <li className="nav-item">
+        <Link className="nav-link" to="/">
+          Inicio
+        </Link>
       </li>
-      <li>
-        <Link to="/HeroList">Hero List</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to="/HeroList">
+          Hero List
+        </Link>
       </li>
-      <li>
-        <Link to="/HeroDetails/">Hero Details</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to="/HeroDetails/">
+          Hero Details
+        </Link>
       </li>
-      <li>
-        <Link to="/asd">Error en la url</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to="/asd">
+          Error en la url
+        </Link>
       </li>
     </ul>
   );
